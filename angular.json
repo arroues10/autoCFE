@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-autoCFE",
+            "outputPath": "dist/angular-auto-cfe",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-autoCFE:build:production"
+              "browserTarget": "angular-auto-cfe:build:production"
             },
             "development": {
-              "browserTarget": "angular-autoCFE:build:development"
+              "browserTarget": "angular-auto-cfe:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-autoCFE:build"
+            "browserTarget": "angular-auto-cfe:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "angular-autoCFE"
+  "defaultProject": "angular-auto-cfe"
 }
